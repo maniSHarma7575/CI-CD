@@ -3,12 +3,12 @@ name: CI_CD
 on:
   push:
     branches:
-    - master
-    - features/*
+    - main
+    - feature/*
   pull_request:
     branches:
     - master
-    - features/*
+    - feature/*
 
 jobs:
   laravel-tests:
